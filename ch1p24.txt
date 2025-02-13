@@ -1,0 +1,15 @@
+main calls first so:
+Inside first method
+
+THEN main calls third:
+first -> Inside first method
+second -> Inside second method - > Inside first method
+Inside third method
+
+THEN main calls second:
+Inside second method -> Inside first method
+
+THEN main calls third:
+Inside first method
+Inside second method -> Inside first method
+Inside third method
