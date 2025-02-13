@@ -1,0 +1,4 @@
+no class at the start
+no semicolon on ln 3
+On line 4, println is capitalized and it shoudln't be
+

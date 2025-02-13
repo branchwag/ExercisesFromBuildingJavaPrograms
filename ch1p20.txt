@@ -1,0 +1,4 @@
+No opening { to open the class on line 1
+No args (name of string array param) being passed to main
+There is a big commented out section, not sure if that's intended
+No closing parenthesis on line 11

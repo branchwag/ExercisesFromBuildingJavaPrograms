@@ -1,0 +1,4 @@
+no return type on the main function (void)
+String param should be capitalized
+no closing doublequote on line 4
+no closing brace for the main function
