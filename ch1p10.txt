@@ -1,0 +1,3 @@
+Shaq is 7'1
+The string "" is an empty message
+/'""

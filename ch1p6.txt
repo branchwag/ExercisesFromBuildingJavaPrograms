@@ -1,0 +1,9 @@
+legal identifiers:
+println
+AnnualSalary
+ABC
+sum_of_data
+_average
+B4
+
+NOT 42isTheAnswer, first-name, for , "hello"

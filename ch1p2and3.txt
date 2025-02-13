@@ -1,0 +1,19 @@
+convert these decimal nums to binary
+
+6 -> 110 (a 4 and 2)
+44 -> 101100 (a 32, 0, 8, 4)
+72 -> 1001000 (a 64)
+131 -> 10000011 (a 128, a 2, and a 1 - remember the rightmost is 2 to 0 which is 1)
+
+
+
+//we seem to start at 0 in programming bc each bit (binary digit) corresponds to exponent of 2, starting at 2^0 for rightmost bit
+//bit shifting can make more sense this way
+
+
+converting binary to decimal
+
+100 = 4
+1011 = 2 + 1 + 16 = 19
+101010 = 2 + 8 + 32 = 42 :)
+1001110 = 64 + 8 + 4 + 2 = 78
