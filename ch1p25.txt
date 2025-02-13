@@ -1,0 +1,13 @@
+Main calls second:
+Inside second method -> Inside first method
+
+Main calls first:
+Inside first method
+
+Main calls second:
+Inside second method -> Inside first method
+
+Main calls third:
+Inside third method
+Inside first method
+Inside second method -> Inside first method
