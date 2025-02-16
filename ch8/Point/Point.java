@@ -2,9 +2,9 @@ public class Point {
 	int x;
 	int y;
 
-	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
+	public Point(int initialX, int initialY) {
+		x = initialX;
+		y = initialY;
 	}
 
 	public double distanceFromOrigin() {
@@ -14,5 +14,9 @@ public class Point {
 	public void translate(int dx, int dy) {
 		x += dx;
 		y += dy;
+	}
+
+	public String toString() {
+	    return "(" + x + ", " + y + ")";
 	}
 }
