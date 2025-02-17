@@ -17,8 +17,9 @@ public class Point {
 	}
 
 	public void translate(int dx, int dy) {
-		x += dx;
-		y += dy;
+		//x += dx;
+		//y += dy;
+		setLocation(x + dx, y + dy);
 	}
 
 	public String toString() {
@@ -33,8 +34,8 @@ public class Point {
 		return y;
 	}
 
-	public void setLocation(int newX, int newY) {
-		x = newX;
-		y = newY;
+	public void setLocation(int x, int y) {
+		this.x = x;
+		this.y = y;
 	}
 }
