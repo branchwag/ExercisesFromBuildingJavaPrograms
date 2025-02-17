@@ -6,5 +6,7 @@ public class PointExample {
 		Point p2 = new Point();
 		System.out.println("Distance from origin for p1 = " + p1.distanceFromOrigin());
 		System.out.println("Distance from origin for p2 = " + p2.distanceFromOrigin());
+
+		System.out.println("p1 is (" + p1.getX() + ", " + p1.getY() + ")");
 	}
 }

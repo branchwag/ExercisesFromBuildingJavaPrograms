@@ -1,10 +1,11 @@
 public class Point {
-	int x;
-	int y;
+	private int x;
+	private int y;
 
 	public Point() {
-		x = 0;
-		y = 0; 
+		//x = 0;
+		//y = 0; 
+		this(0 , 0);
 	}
 
 	public Point(int initialX, int initialY) {
@@ -23,5 +24,13 @@ public class Point {
 
 	public String toString() {
 	    return "(" + x + ", " + y + ")";
+	}
+
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
 	}
 }
