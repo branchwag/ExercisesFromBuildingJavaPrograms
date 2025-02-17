@@ -1,10 +1,8 @@
 public class TimeSpan {
-	private int hours; 
-	private int minutes;
+	private int totalMinutes;
 
 	public TimeSpan(int hours, int minutes) {
-		this.hours = 0;
-		this.minutes = 0;
+		totalMinutes = 0;
 		add(hours, minutes);
 	}
 
@@ -13,15 +11,11 @@ public class TimeSpan {
 			throw new IllegalArgumentException();
 		}
 	
-		this.hours += hours;
-		this.minutes += minutes;
-
-		this.hours += this.minutes / 60;
-		this.minutes = this.minutes % 60; //what's left over are minutes
+		totalMinutes += 60 * hours + minutes;
 	}
 
 	public String toString() {
-		return hours + "h " + minutes + "m";
+		return (totalMinutes / 60) + "h " + (totalMinutes % 60) + "m";
 	}
 }
 
