@@ -8,9 +8,8 @@ public class Point {
 		this(0 , 0);
 	}
 
-	public Point(int initialX, int initialY) {
-		this.x = initialX;
-		this.y = initialY;
+	public Point(int x, int y) {
+		setLocation(x, y);
 	}
 
 	public double distanceFromOrigin() {
@@ -32,5 +31,10 @@ public class Point {
 
 	public int getY() {
 		return y;
+	}
+
+	public void setLocation(int newX, int newY) {
+		x = newX;
+		y = newY;
 	}
 }
