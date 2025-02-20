@@ -11,7 +11,7 @@ public class Stock {
 
 		symbol = theSymbol;
 		totalShares = 0;
-		totalCost = 0.0
+		totalCost = 0.0;
 	}
 
 	public double getProfit(double currentPrice) {
