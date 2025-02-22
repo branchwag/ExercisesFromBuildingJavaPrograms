@@ -3,25 +3,25 @@ public class Stock {
 	private int totalShares;
 	private double totalCost;
 
-	public Stock(String theSymbol) {
+	public Stock(String symbol) {
 
-		if (theSymbol == null) {
+		if (symbol == null) {
 			throw new NullPointerException();
 		}
 
-		symbol = theSymbol;
+		this.symbol = symbol;
 		totalShares = 0;
 		totalCost = 0.0;
 	}
 
-	public Stock(String theSymbol, int shares, double pricePerShare) {
-		if (theSymbol == null) {
+	public Stock(String symbol, int shares, double pricePerShare) {
+		if (symbol == null) {
 			throw new NullPointerException();
 		}
 		if (shares < 0 || pricePerShare < 0) {
 			throw new IllegalArgumentException();
 		}
-		symbol = theSymbol;
+		this.symbol = symbol;
 		totalShares = shares;
 		totalCost = shares * pricePerShare;
 	}

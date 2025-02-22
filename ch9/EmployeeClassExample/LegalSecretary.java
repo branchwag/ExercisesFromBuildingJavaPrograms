@@ -1,6 +1,6 @@
 public class LegalSecretary extends Secretary {
 	public double getSalary() {
-		return 45000.0;
+		return super.getSalary() + 5000;
 	}
 
 	public void fileLegalBriefs() {
