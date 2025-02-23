@@ -38,4 +38,13 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
+
+	public boolean equals(Object o) {
+		if (o instanceof Point) {
+			Point other = (Point) o;
+			return x == other.x && y == other.y;
+		} else {
+			return false;
+		}
+	}
 }

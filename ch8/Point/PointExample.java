@@ -8,5 +8,7 @@ public class PointExample {
 		System.out.println("Distance from origin for p2 = " + p2.distanceFromOrigin());
 
 		System.out.println("p1 is (" + p1.getX() + ", " + p1.getY() + ")");
+
+		System.out.println("Test to see point comparison: " + p1.equals(null));
 	}
 }
