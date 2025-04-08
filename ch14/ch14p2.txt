@@ -1,0 +1,8 @@
+What is a real-world example of data that could be modeled
+using a stack? Using a queue?
+
+Stack:
+When you're working on a document or graphic, pressing the "Undo" button essentially reverses the last action. Each action is pushed onto the stack, and when you undo, the last action (the most recent push) is popped off. This operates in a Last In, First Out (LIFO) manner.
+
+Queue:
+Calls coming into a call center are placed in a queue. The first customer to call is the first one answered. Call centers often operate in a FIFO order to ensure customers are served in the order they requested help.

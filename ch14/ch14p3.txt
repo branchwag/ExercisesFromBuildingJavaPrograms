@@ -1,0 +1,10 @@
+When you call `push` on a stack:
+- The new element is placed on top of the stack, above all other existing elements
+- It becomes the newest element in the stack
+
+When you call `pop` on a stack:
+- The element at the top of the stack is removed and returned
+- This is the most recently added element (the newest one)
+- This follows the Last-In, First-Out (LIFO) principle
+
+This is why stacks are described as LIFO data structures - the last element you put in is the first one you get out when removing elements.

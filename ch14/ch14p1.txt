@@ -1,0 +1,1 @@
+c. A queue’s remove method removes and returns the element at the front of the queue.

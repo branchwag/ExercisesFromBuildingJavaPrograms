@@ -1,0 +1,10 @@
+When you call `add` on a queue:
+- The new element is placed at the back (or rear/tail) of the queue, behind all other existing elements
+- It becomes the newest element in the queue
+
+When you call `remove` on a queue:
+- The element at the front (or head) of the queue is removed and returned
+- This is the oldest element in the queue (the one that was added earliest)
+- This follows the First-In, First-Out (FIFO) principle
+
+This is why queues are described as FIFO data structures - the first element you put in is the first one you get out when removing elements.
