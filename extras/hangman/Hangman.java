@@ -69,7 +69,9 @@ class Hangman {
                         TxtGrph.position(SECRET_WORD_ROW - 1, 2 * i + 1);
                         System.out.print(letterGuessed);
                     }
-                TxtGrph.beep();
+                // I found the beeping annoying so I commented it out but if you like that
+                // weirdness, uncomment the below line
+                // TxtGrph.beep();
                 correctGuesses.include(letterGuessed);
 
                 // Check if player has won
