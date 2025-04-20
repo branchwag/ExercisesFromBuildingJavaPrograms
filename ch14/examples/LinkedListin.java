@@ -19,4 +19,21 @@ public class LinkedListin {
 class ListNode {
 	public int data;
 	public ListNode next;
+
+	// constructor
+	public ListNode() {
+		this(0, null);
+	}
+
+	// constructor with just data
+	public ListNode(int data) {
+		this(data, null);
+	}
+
+	// constructor with data and next/link
+	public ListNode(int data, ListNode next) {
+		this.data = data;
+		this.next = next;
+	}
+
 }
