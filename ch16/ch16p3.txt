@@ -1,0 +1,2 @@
+Next will have null as the value in the last node of a list. 
+`

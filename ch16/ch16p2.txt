@@ -1,0 +1,1 @@
+A linked node is a member of a linked list. It typically contains data and a pointer to the next node (or a node pointer if it is the last or only node). 

@@ -1,0 +1,1 @@
+Node with data 3 is now the end node instead of 2 and 2 is gone.
