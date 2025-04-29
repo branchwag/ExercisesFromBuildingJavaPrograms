@@ -1,0 +1,1 @@
+lists's value is 1 so list.next would be 2. So then we make a list node with value 3 and then it points to the node with 2.
