@@ -1,0 +1,14 @@
+before: 
+
+list -> 5 -> 4 - 3
+
+after:
+
+list -> 3 -> 4 -> 5
+
+
+ListNode temp = list.next.next;   // temp -> 3
+temp.next = list.next;            // 3 -> 4
+list.next.next = list;            // 4 -> 5
+list.next.next.next = null;       // 5 /
+list = temp;                      // list -> 3
